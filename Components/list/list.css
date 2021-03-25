@@ -2,14 +2,14 @@
     background-color: white;
     padding: .5rem 0;
     margin: 10px;
-    width: 300px;
+    width: 240px;
     max-width: 95%;
 }
 
 .list-title{
     padding: 1rem;
     font-weight: 500;
-    border-bottom: 1px solid rgba(119, 119, 119, 0.274);
+    border-bottom: 1px solid #d9d9d9;
     margin-bottom: .5rem;
 }
 
@@ -18,7 +18,7 @@
     list-style: none;
     padding: .7rem 1.1rem;
     font-weight: 400;
-    transition: all .3s ease-in-out;transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .list li:hover{

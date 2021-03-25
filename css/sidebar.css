@@ -2,13 +2,13 @@
     font-family: 'Roboto', sans-serif;
     flex: 0 0 240px;
     margin-right: 1rem;
-    background-color: var(--off-white);
+    background-color: #fff;
 }
 
 .list-topic{
     padding: 1rem;
     font-weight: 500;
-    border-bottom: 1px solid rgba(119, 119, 119, 0.274);
+    border-bottom: 1px solid #d9d9d9;
     margin-bottom: .5rem;
 }
 
@@ -63,8 +63,15 @@
         left: 0;
         background: white;
         width: 280px;
-        padding: 1rem;
+        scroll-behavior: smooth;
+        overflow: auto;
         z-index: 2;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         display: none;
     }
+
+    .btn-float{
+        display: block;
+    }
+
 }
