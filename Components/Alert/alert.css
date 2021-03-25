@@ -1,0 +1,51 @@
+.alert{
+    width: 100%;
+    color:white;
+    border-radius: 4px;
+    background-color: var(--primary-color) ;
+    padding: 1rem 1.5rem;
+    opacity: .9;
+    margin: .5rem 0;
+    font-size: .8rem;
+}
+
+.primary{
+    background-color: var(--primary-color) ;
+}
+
+.error{
+    background-color: var(--danger-color);
+}
+
+.success{
+    background-color: var(--success-color);
+}
+
+.warning{
+    background-color: var(--warning-color);
+}
+
+/* Outline Variant */
+.outline-primary{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.outline-error{
+    border : 1px solid var(--danger-color);
+    color: var(--danger-color);
+    background-color: white;
+}
+
+.outline-success{
+    border: 1px solid var(--success-color);
+    color: var(--success-color);
+    background-color: white;
+}
+
+.outline-warning{
+    border : 1px solid var(--warning-color);
+    color: var(--warning-color);
+    background-color: white;
+}

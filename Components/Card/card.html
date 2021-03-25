@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
+    <title>Sparrow : Card</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="../../index.html">Sparrow</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right-nav">
+                <li><a href="/Get Started/introduction.html">Docs</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Releases</a></li>
+            </ul>
+        </nav>
+
+        <div class="doc-container">
+            <div class="side-bar">
+
+                <!-- Get Started List Start -->
+                <div class="nested-list">
+                    <div class="list-topic">
+                        <a href="/Get Started/introduction.html">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Get Started/introduction.html">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Color.html">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Typography.html">
+                                Typography
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Conclusion.html">
+                                Conclusion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Components List start -->
+                <div class="nested-list">
+                    <div class="list-topic">
+                        <a href="/Components/Avatar/avatar.html">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Components/Avatar/avatar.html">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Alert/alert.html">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Badge/badge.html">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Button/button.html">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Image Comp/image.html">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Input/input.html">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/list/list.html">
+                                List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Toast/toast.html">
+                                Toast
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="doc-content">
+                <div class="content-title">
+                    Card
+                </div>
+                <div class="content-subtitle">
+                    Cards are surfaces that display content and actions on a single topic.<br /><br />
+                    They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Simple CARD -->
+                <div class="content-head">
+                    Simple Card
+                </div>
+
+                <div class="content-subtitle">
+                    Simple Card is the one that contains a title, a descriptive text.
+                    To use the Card Component, card-title, and card-text inside a div with class card.
+                </div>
+
+                <div class="example-div">
+                    <div class="card">
+                        <div class="card-title">
+                            Superman
+                        </div>
+                        <div class="card-text">
+                            Faster than a speeding bullet, more powerful than a locomotive… The Man of Steel fights a never-ending battle for truth, justice, and the American way.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using card-title, card-text inside 'card' class -->
+                
+                &lt;div class="card"&gt;
+                    &lt;div class="card-title"&gt;
+                        Batman
+                    &lt;/div&gt;
+                    &lt;div class="card-text"&gt;
+                        Batman is the superhero protector of Gotham City, a tortured, brooding vigilante
+                        who fights against evil and strikes fear into the hearts of criminals everywhere.
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Image CARD -->
+                <div class="content-head">
+                    Image Card
+                </div>
+
+                <div class="content-subtitle">
+                    Image Card is the one that contains an <span class="highlighted">Image, Title & Text</span>.
+                    To use the Card Component, put card-image, card-title and card-text, inside a div with class card.
+                </div>
+
+                <div class="example-div">
+                    <div class="card">
+                        <img class="card-image" src="https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="card-pic" />
+                        <div class="card-title">
+                            Batman
+                        </div>
+                        <div class="card-text">
+                            Batman is the superhero protector of Gotham City, a tortured, brooding vigilante who fights against evil and strikes fear into the hearts of criminals everywhere.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using card-image, card-title, card-text inside 'card' class -->
+                        
+                &lt;div class="card"&gt;
+                    &lt;img class="card-image" src="https://yourURL.sparrow" alt="card-pic" /&gt;
+                    &lt;div class="card-title"&gt;
+                        Batman
+                    &lt;/div&gt;
+                    &lt;div class="card-text"&gt;
+                        Batman is the superhero protector of Gotham City, a tortured, brooding vigilante
+                        who fights against evil and strikes fear into the hearts of criminals everywhere.
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- SOCIAL MEDIA CARD -->
+                <div class="content-head">
+                    Social Media Card
+                </div>
+
+                <div class="content-subtitle">
+                    Social Media Card is the one that contains an Avatar, Profile Name, Image, and Description.
+                </div>
+
+                <div class="example-div">
+                    <div class="card">
+                        <div class="card-head">
+                            <img src="/assets/svg/female profile.svg" alt="" class="avatar">
+                            John Doe
+                        </div>
+                        <img class="card-image" src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="card-pic" />
+                        <div class="card-text">
+                            The best thing about a Boolean is that even if you are wrong, you are only off by a bit.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using card-image, card-title, card-text inside 'card' class -->
+                
+                &lt;div class="card"&gt;
+                    &lt;div class="card-head"&gt;
+                        &lt;img src="/assets/svg/female profile.svg" alt="" class="avatar"&gt;
+                        John Doe
+                    &lt;/div&gt;
+                    &lt;img class="card-image" src="https://yourURL.sparrow" alt="card-pic" /&gt;
+                    &lt;div class="card-text"&gt;
+                        Batman is the superhero protector of Gotham City, a tortured, brooding vigilante
+                        who fights against evil and strikes fear into the hearts of criminals everywhere.
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+
+                <!-- ECOMMERCE CARD -->
+                <div class="content-head">
+                    eCommerce Card
+                </div>
+
+                <div class="content-subtitle">
+                    eCommerce Card is used to display the products details i.e., Product shot, Name, Type, Fixed badge, Price, Discount and stock.
+                </div>
+
+                <div class="example-div">
+                    <div class="card ecomm">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="card-pic" />
+                        </div>
+                        <div class="card-badge">
+                            NEW
+                        </div>
+                        <button class="ico">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g><path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385c.92 1.815 2.834 3.989 6.286 6.357c3.452-2.368 5.365-4.542 6.286-6.357c.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path></g></svg>
+                        </button>
+                        <div class="card-title">
+                            Apple
+                        </div>
+                        <div class="card-text">
+                            Airpods 2nd Generation
+                        </div>
+                        <div class="card-price">
+                            <span class="price-now">
+                                Rs.490
+                            </span>
+                            <span class="price-before">
+                                Rs.1299
+                            </span>
+                            <span class="discount">
+                                (62% OFF)
+                            </span>
+                        </div>
+                        <button class="btn btn-primary">ADD TO CART</button>
+                    </div>
+
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using inside 'card ecomm' class -->
+                
+                &lt;div class="card ecomm"&gt;
+                    &lt;div class="product-image">
+                        &lt;img src="https://url-of-the-image.sparrow" alt="card-pic" /&gt;
+                    &lt;/div>
+
+                    <-- Optional -->
+                    &lt;div class="card-badge"&gt;
+                        NEW
+                    &lt;/div>
+                    &lt;button class="ico">
+                        <-- svg of icon -->
+                    &lt;/button>
+
+                    &lt;div class="card-title"&gt;
+                        English Navy
+                    &lt;/div&gt;
+                    &lt;div class="card-text"&gt;
+                        Men Regular Fit Formal Short
+                    &lt;/div&gt;
+                    &lt;div class="card-price"&gt;
+                        &lt;span class="price-now"&gt;
+                            Rs. 490
+                        &lt;/span&gt;
+                        &lt;span class="price-before"&gt;
+                            Rs. 1299
+                        &lt;/span&gt;
+                        &lt;span class="discount"&gt;
+                            (62% OFF)
+                        &lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;button class="btn btn-primary">
+                        ADD TO CART
+                    &lt;/button>
+
+                &lt;/div&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <footer>
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="../Button/button.html">Button</a>
+                    </div>
+                    <div class="next-comp">
+                        <a href="../Image Comp/image.html">Image</a> 
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

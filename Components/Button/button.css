@@ -1,0 +1,117 @@
+/* BUTTON COMPONENT START */
+
+/* Contained Button */
+.btn{
+    font-weight: 600;
+    background: var(--default-color);
+    color: white;
+    min-width: 100px;
+    width: max-content;
+    padding: .8rem 1rem ;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    transition: all .3s ease-in-out;
+    margin: 10px;
+}
+
+.btn-primary{
+    background-color : var(--primary-color);
+    color : white;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-hover);
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color : black;
+}
+
+.btn-secondary:hover{
+    background-color: var(--secondary-hover);
+}
+
+.btn-error{
+    background-color: var(--danger-color);
+}
+
+.btn-error:hover{
+    background-color: var(--danger-hover);
+}
+
+.btn-success{
+    background-color: var(--success-color);
+}
+
+.btn-success:hover{
+    background-color: var(--success-hover);
+}
+
+/* Outline Button */
+.btn.outline{
+    background-color: white;
+    border: 1px solid var(--default-color);
+    color : var(--default-color)
+}
+
+.btn.outline:hover{
+    background-color: var(--default-color);
+    color : white
+}
+
+.btn.outline-primary{
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color)
+}
+
+.btn.outline-primary:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn.outline-error{
+    background-color: white;
+    border: 1px solid var(--danger-color);
+    color: var(--danger-color);
+}
+
+.btn.outline-error:hover{
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.btn.outline-success{
+    background-color: white;
+    border: 1px solid var(--success-color);
+    color: var(--success-color);
+}
+
+.btn.outline-success:hover{
+    background-color: var(--success-color);
+    color: white;
+}
+
+.btn-link{
+    background-color: var(--active-color);
+    color: white;
+}
+
+.btn-icon:hover,.btn-link:hover{
+    background-color: var(--active-hover);
+}
+
+.btn-icon{
+    background-color: var(--active-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-icon svg{
+    height: max-content;
+} 
+

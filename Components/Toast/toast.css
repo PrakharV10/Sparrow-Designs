@@ -1,0 +1,9 @@
+.toast{
+    padding: 1rem;
+    font-size: 13px;
+    width:250px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid var(--success-color);
+}
