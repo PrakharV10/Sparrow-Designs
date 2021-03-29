@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
+    <title>Sparrow : Input</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="../../index.html">Sparrow</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right-nav">
+                <li><a href="/Get Started/introduction.html">Docs</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Releases</a></li>
+            </ul>
+        </nav>
+
+        <div class="doc-container">
+            <div class="side-bar">
+
+                <!-- Get Started List Start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Get Started/introduction.html">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Get Started/introduction.html">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Color.html">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Typography.html">
+                                Typography
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Conclusion.html">
+                                Conclusion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Components List start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Components/Avatar/avatar.html">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Components/Avatar/avatar.html">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Alert/alert.html">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Badge/badge.html">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Button/button.html">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Card/card.html">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Image Comp/image.html">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/list/list.html">
+                                List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Toast/toast.html">
+                                Toast
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="doc-content">
+                <div class="content-title">
+                    Inputs
+                </div>
+                <div class="content-subtitle">
+                    Inputs are necessary for user interaction with the website. Inputs are used to take information from the user, and then save the data to the server, accordingly.
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Simple Input -->
+                <div class="content-head">
+                    Label Inputs
+                </div>
+
+                <div class="content-subtitle">
+                    Label Input has a label present at the top of the input field. They can be customized to show error error-message, and change color accordingly.
+                </div>
+
+                <div class="example-div alert-box">
+                    <!-- Input Field -->
+                    <div class="input-group">
+                        <label>Username *</label>						
+                        <input type="text">
+                    </div>
+
+                    <div class="input-group err">
+                        <label>Password *</label>						
+                        <input type="text">
+                        <div class="error-message">
+                            Wrong Password. Try again.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using 'input-group' as outside container, containing label, input and error-
+                message -->
+                
+                &lt;div class="input-group">
+                    &lt;label>Username *&lt;/label>						
+                    &lt;input type="text">
+                &lt;/div>
+
+                &lt;div class="input-group err">
+                    &lt;label>Password *&lt;/label>						
+                    &lt;input type="text">
+                    &lt;div class="error-message">
+                        Wrong Password. Try again.
+                    &lt;/div>
+                &lt;/div>
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Radio -->
+                <div class="content-head">
+                    Radio
+                </div>
+
+                <div class="content-subtitle">
+                    Radio buttons allow the user to select one option from a set.
+                </div>
+
+                <div class="example-div">
+                    <div class="radio">
+                        <label for="radio-1">
+                            <input id="radio-1" name="radio" type="radio" checked>
+                            Checked
+                        </label>
+                    </div>
+
+                    <div class="radio">
+                        <label for="radio-2">
+                            <input id="radio-2" name="radio" type="radio">
+                            Unchecked   
+                        </label>
+                    </div>
+
+                    <div class="radio disabled">
+                        <label for="radio-3">
+                            <input id="radio-3" name="radio" type="radio" disabled>
+                            Disabled
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using 'radio' class for the outside div, containing input and label -->
+                
+                &lt;div class="radio">
+                    &lt;label for="radio-1">
+                        &lt;input id="radio-1" name="radio" type="radio" checked>
+                        Checked
+                    &lt;/label>
+                &lt;/div>
+
+                &lt;div class="radio">
+                    &lt;label for="radio-2">
+                        &lt;input id="radio-2" name="radio" type="radio">
+                        Unchecked   
+                    &lt;/label>
+                &lt;/div>
+
+                &lt;div class="radio disabled">
+                    &lt;label for="radio-3">
+                        &lt;input id="radio-3" name="radio" type="radio" disabled>
+                        Disabled
+                    &lt;/label>
+                &lt;/div>
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- CheckBox -->
+                <div class="content-head">
+                    Checkbox
+                </div>
+
+                <div class="content-subtitle">
+                    Checkboxes allow the user to select one or more items from a set.
+                    Checkboxes can be used to turn an option on or off.
+                    <br />
+                    If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch instead.
+
+
+                </div>
+
+                <div class="example-div">
+                    <div class="checkbox">
+                        <label for="checkbox-1">
+                            <input id="checkbox-1" name="checkbox" type="checkbox" checked>
+                            Checked
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="checkbox-2">
+                            <input id="checkbox-2" name="checkbox" type="checkbox">
+                            Unchecked   
+                        </label>
+                    </div>
+
+                    <div class="checkbox disabled">
+                        <label for="checkbox-3">
+                            <input id="checkbox-3" name="checkbox" type="checkbox" disabled>
+                            Disabled
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using 'checkbox' class for the outside div, containing input and label -->
+                
+                &lt;div class="checkbox">
+                    &lt;label for="checkbox-1">
+                        &lt;input id="checkbox-1" name="checkbox" type="checkbox" checked>
+                        Checked
+                    &lt;/label>
+                &lt;/div>
+
+                &lt;div class="checkbox">
+                    &lt;label for="checkbox-2">
+                        &lt;input id="checkbox-2" name="checkbox" type="checkbox">
+                        Unchecked   
+                    &lt;/label>
+                &lt;/div>
+
+                &lt;div class="checkbox disabled">
+                    &lt;label for="checkbox-3">
+                        &lt;input id="checkbox-3" name="checkbox" type="checkbox" disabled>
+                        Disabled
+                    &lt;/label>
+                &lt;/div>
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <footer>
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="../Image Comp/image.html">Image</a>
+                    </div>
+                    <div class="next-comp">
+                        <a href="../list/list.html">List</a> 
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

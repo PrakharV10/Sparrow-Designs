@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
+    <title>Sparrow : List</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="../../index.html">Sparrow</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right-nav">
+                <li><a href="/Get Started/introduction.html">Docs</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Releases</a></li>
+            </ul>
+        </nav>
+
+        <div class="doc-container">
+            <div class="side-bar">
+
+                <!-- Get Started List Start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Get Started/introduction.html">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Get Started/introduction.html">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Color.html">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Typography.html">
+                                Typography
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Conclusion.html">
+                                Conclusion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Components List start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Components/Avatar/avatar.html">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Components/Avatar/avatar.html">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Alert/alert.html">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Badge/badge.html">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Button/button.html">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Card/card.html">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Image Comp/image.html">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Input/input.html">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">
+                                List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Toast/toast.html">
+                                Toast
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="doc-content">
+                <div class="content-title">
+                    List
+                </div>
+                <div class="content-subtitle">
+                    Lists are continuous, vertical indexes of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Simple list -->
+                <div class="content-head">
+                    Simple List Groups
+                </div>
+
+                <div class="example-div">
+                    <ul class="list">
+                        <div class="list-title">Categories</div>
+                        <li>Home</li>
+                        <li>Smartphones</li>
+                        <li>Earphones</li>
+                        <li>Watches</li>
+                    </ul>
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using 'list' class name -->
+                
+                &lt;ul class="list">
+                    &lt;div class="list-title">Categories&lt;/div>
+                    &lt;li>Home&lt;/li>
+                    &lt;li>Smartphones&lt;/li>
+                    &lt;li>Earphones&lt;/li>
+                    &lt;li>Watches&lt;/li>
+                &lt;/ul>
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Simple list -->
+                <div class="content-head">
+                    Nested List Groups
+                </div>
+
+                <div class="example-div">
+                    <ul class="list">
+                        <div class="list-title">Categories</div>
+                        <li>Home</li>
+                        <li class="collapsable">
+                            <div>Smartphones</div>
+                            <ul>
+                                <li>Apple</li>
+                                <li>Realme</li>
+                                <li>Samsung</li>
+                            </ul>
+                        </li>
+                        <li>Earphones</li>
+                        <li>Watches</li>
+                    </ul>
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using 'list' class name, and 'collapsable' for creating nested list -->
+                
+                &lt;ul class="list">
+                    &lt;div class="list-title">Categories&lt;/div>
+                    &lt;li>Home&lt;/li>
+                    &lt;li class="collapsable">
+                        &lt;div>Smartphones&lt;/div>
+                        &lt;ul>
+                            &lt;li>Apple&lt;/li>
+                            &lt;li>Realme&lt;/li>
+                            &lt;li>Samsung&lt;/li>
+                        &lt;/ul>
+                    &lt;/li>
+                    &lt;li>Earphones&lt;/li>
+                    &lt;li>Watches&lt;/li>
+                &lt;/ul>
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Checkbox list -->
+                <div class="content-head">
+                    Select List Groups
+                </div>
+
+                <div class="content-subtitle">
+                    Select List groups contains items with checkboxes. They are useful for refining the products search on an eCommerce website.
+                </div>
+
+                <div class="example-div">
+                    <div class="check-list">
+                        <div class="list-title">
+                            Refine search
+                        </div>
+                        <div class="check-title">
+                            Brand
+                        </div>
+                        <div class="checkbox">
+                            <label for="checkbox-1">
+                                <input id="checkbox-1" name="checkbox" type="checkbox" checked>
+                                Apple
+                            </label>
+                            <label for="checkbox-2">
+                                <input id="checkbox-2" name="checkbox" type="checkbox">
+                                Nokia 
+                            </label>
+                            <label for="checkbox-3">
+                                <input id="checkbox-3" name="checkbox" type="checkbox">
+                                Samsung
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                <-- Using 'check-list', 'list-title', 'check-title' & 'checkbox' class name -->
+                
+                &lt;div class="check-list">
+                    &lt;div class="list-title">
+                        Refine search
+                    &lt;/div>
+                    &lt;div class="check-title">
+                        Brand
+                    &lt;/div>
+                    &lt;div class="checkbox">
+                        &lt;label for="checkbox-1">
+                            &lt;input id="checkbox-1" name="checkbox" type="checkbox" checked>
+                            Apple
+                        &lt;/label>
+                        &lt;label for="checkbox-2">
+                            &lt;input id="checkbox-2" name="checkbox" type="checkbox">
+                            Nokia 
+                        &lt;/label>
+                        &lt;label for="checkbox-3">
+                            &lt;input id="checkbox-3" name="checkbox" type="checkbox">
+                            Samsung
+                        &lt;/label>
+                    &lt;/div>
+                &lt;/div>
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <footer>
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="../Input/input.html">Input</a>
+                    </div>
+                    <div class="next-comp">
+                        <a href="../Toast/toast.html">Toast</a> 
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

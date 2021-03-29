@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color : #6366F1;
+    --default-color : #172B4D;
+    --secondary-color : #F3F4F6;
+    --danger-color : #F44336;
+    --success-color :#4CAF50;
+    --warning-color : #FF9800;
+
+    --primary-hover : #4F46E5;
+    --secondary-hover: #E5E7EB;
+    --danger-hover : #d31609 ;
+    --success-hover: #0d8611;
+    --active-hover : #058ce0;
+
+    --off-white : #F6F9FC;
+    --active-color : #1EA7FD;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container{
+    width: 80%;
+    min-height: 100vh;
+    height: max-content;
+    margin: auto;
+}
+
+nav{
+    padding: 2.5rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.left-nav a{
+    color : #333;
+    text-decoration: none;
+}
+
+.small-text{
+    color :rgb(90, 90, 90);
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-nav li{
+    margin: 0 1rem;
+    list-style: none;
+}
+
+.right-nav a{
+    font-weight: 800;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .9rem;
+    transition: all .3s ease;
+}
+
+.right-nav a:hover{
+    color: black;
+}
+
+@media screen and (max-width : 1200px){
+    .container{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width : 800px){
+
+    nav{
+        padding: 2.5rem 1rem;
+    }
+
+    .left-nav{
+        font-size: 1.1rem;
+    }
+
+    .right-nav li{
+        margin: 0 .5rem;
+    }
+
+    .right-nav li a{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .container{
+        width: 100%;
+    }
+    
+    nav{
+        padding: 1rem;
+    }
+}

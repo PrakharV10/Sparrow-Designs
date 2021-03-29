@@ -1,0 +1,68 @@
+.list,.nested-list{
+    background-color: white;
+    padding: .5rem 0;
+    margin: 10px;
+    width: 240px;
+    max-width: 95%;
+}
+
+.list-title{
+    padding: 1rem;
+    font-weight: 500;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: .5rem;
+}
+
+.list li{
+    font-size: 13px;
+    list-style: none;
+    padding: .7rem 1.1rem;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+
+.list li:hover{
+    cursor: pointer;
+    color : var(--active-color);
+}
+
+/* Nested List */
+
+.list .collapsable{
+    padding: .7rem 1.1rem 0;
+}
+
+.list .collapsable div{
+    transition: all .3s ease-in-out;
+    padding-bottom: .7rem;
+}
+
+.list .collapsable div:hover{
+    color : var(--active-color);
+}
+
+.list .collapsable li{
+    padding: .7rem 1rem;
+}
+
+.list .collapsable:hover{
+    color: black;
+}
+
+/* Check List */
+
+.check-list{
+    background-color: white;
+    padding: .5rem 0;
+    margin: 10px;
+    width: 300px;
+    max-width: 95%;
+}
+
+.check-title{
+    font-weight: 500;
+    margin: 15px 0;
+    border: none;
+    padding: 0 1rem;
+    font-size: 13px;
+}

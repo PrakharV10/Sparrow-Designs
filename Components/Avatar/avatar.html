@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
+    <title>Sparrow : Avatar</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="../../index.html">Sparrow</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right-nav">
+                <li><a class="active" href="#">Docs</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Releases</a></li>
+            </ul>
+        </nav>
+
+        <div class="doc-container">
+            <div class="side-bar">
+
+                <!-- Get Started List Start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Get Started/introduction.html">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Get Started/introduction.html">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Color.html">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Typography.html">
+                                Typography
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Conclusion.html">
+                                Conclusion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Components List start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Components/Avatar/avatar.html">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a class="active" href="#">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Alert/alert.html">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Badge/badge.html">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Button/button.html">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Card/card.html">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Image Comp/image.html">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Input/input.html">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/list/list.html">
+                                List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Toast/toast.html">
+                                Toast
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="doc-content">
+                <div class="content-title">
+                    Avatar
+                </div>
+                <div class="content-subtitle">
+                    Avatars are user profile pictures, usually found in circular shapes. Avatars can be used for 'container' objects — projects, spaces, repositories, etcetera — to give them a recognisable visual identity.
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- PROFILE AVATAR -->
+                <div class="content-head">
+                    Profile Avatar 
+                </div>
+
+                <div class="content-subtitle">
+                    Profile Avatars can be created using the class 'avatar', inside the <code>img</code> tag.
+                </div>
+
+                <div class="example-div">
+                    <img class="avatar" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="avatar-1">
+
+                    <img class="avatar" src="https://images.unsplash.com/photo-1593692667732-d53fdaec0b60?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="avatar-2">
+
+                    <img class="avatar" src="/assets/svg/female profile.svg" alt="avatar-illustration">
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the 'avatar' class name -->
+
+                    &lt;img class="avatar" src="https://url-of-the-image" alt="avatar-1"&gt;
+                    &lt;img class="avatar" src="/assets/svg/female profile.svg"&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- SIZES AVATAR -->
+                <div class="content-head">
+                    Sizes Avatar 
+                </div>
+
+                <div class="content-subtitle">
+                    Size of the avatars can be changed by adding <code>sm | md | lg</code> class to the existing avatar class.
+                </div>
+
+                <div class="example-div">
+                    <img class="avatar sm" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="avatar-1">
+
+                    <img class="avatar md" src="https://images.unsplash.com/photo-1593692667732-d53fdaec0b60?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="avatar-2">
+
+                    <img class="avatar lg" src="/assets/svg/female profile.svg" alt="avatar-illustration">
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the sm | md | lg class names -->
+
+                    &lt;img class="avatar sm" src="https://url-of-the-image" alt="avatar-1"&gt;
+                    &lt;img class="avatar lg" src="https://url-of-the-image" alt="avatar-1"&gt;
+                    &lt;img class="avatar md" src="/assets/svg/female profile.svg"&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- SQUARE VARIANT -->
+                <div class="content-head">
+                    Square Avatar 
+                </div>
+
+                <div class="content-subtitle">
+                    Adding a class 'square' to existing class, will generate a square shaped avatar.<br />
+                    <span class="highlighted">Note : Square class wouldn't work if the image provided is svg.</span>
+                </div>
+
+                <div class="example-div">
+                    <img class="avatar square sm" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="avatar-1">
+
+                    <img class="avatar square md" src="https://images.unsplash.com/photo-1593692667732-d53fdaec0b60?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="avatar-2">
+
+                    <img class="avatar square lg" src="https://images.unsplash.com/photo-1558624232-75ee22af7e67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="avatar-illustration">
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the square class -->
+
+                    &lt;img class="avatar square sm" src="https://url-of-the-image" alt="avatar-1"&gt;
+                    &lt;img class="avatar square md" src="https://url-of-the-image" alt="avatar-1"&gt;
+                    &lt;img class="avatar square lg" src="https://url-of-the-image" alt="avatar-1"&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <footer>
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="/Get Started/introduction.html">Get Started</a>
+                    </div>
+                    <div class="next-comp">
+                        <a href="../Alert/alert.html">Alert</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

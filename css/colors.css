@@ -1,0 +1,26 @@
+.palette{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.palette > div{
+    width: 120px;
+    height: 120px;
+    color: white;
+    padding: .5rem;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.default{
+    background-color: var(--default-color);
+}
+
+.palette .secondary{
+    background-color: var(--secondary-color);
+    color: black;
+}
+

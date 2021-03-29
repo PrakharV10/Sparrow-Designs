@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
+    <title>Sparrow : Alert</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="../../index.html">Sparrow</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right-nav">
+                <li><a href="/Get Started/introduction.html">Docs</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Releases</a></li>
+            </ul>
+        </nav>
+
+        <div class="doc-container">
+            <div class="side-bar">
+
+                <!-- Get Started List Start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Get Started/introduction.html">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Get Started/introduction.html">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Color.html">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Typography.html">
+                                Typography
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Conclusion.html">
+                                Conclusion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Components List start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Components/Avatar/avatar.html">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Components/Avatar/avatar.html">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Badge/badge.html">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Button/button.html">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Card/card.html">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Image Comp/image.html">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Input/input.html">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/list/list.html">
+                                List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Toast/toast.html">
+                                Toast
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="doc-content">
+                <div class="content-title">
+                    Alert
+                </div>
+                <div class="content-subtitle">
+                    An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- PROFILE AVATAR -->
+                <div class="content-head">
+                    Simple Alert 
+                </div>
+
+                <div class="content-subtitle">
+                    Simple Alerts can be created using <code>alert</code> class, followed by the <code>variant</code> name.
+                </div>
+
+                <!-- Live Code -->
+                <div class="example-div alert-box">
+                    <div class="alert primary">
+                        <strong>Primary!</strong> This is a Primary Alert - Check it now!
+                    </div>
+
+                    <div class="alert error">
+                        <strong>Error!</strong> This is an Error Alert - Check it now!
+                    </div>
+
+                    <div class="alert success">
+                        <strong>Success!</strong> This is a Success Alert - Check it now!
+                    </div>
+
+                    <div class="alert warning">
+                        <strong>Warning!</strong> This is a Warning Alert - Check it now!
+                    </div>
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the alert class followed by the variant name -->
+
+                    &lt;div class="alert primary"&gt;
+                        &lt;strong&gt;Primary!&lt;/strong&gt; This is a Primary Alert - Check it now!
+                    &lt;/div&gt;
+
+                    &lt;div class="alert error"&gt;
+                        &lt;strong&gt;Error!&lt;/strong&gt; This is an Error Alert - Check it now!
+                    &lt;/div&gt;
+
+                    &lt;div class="alert success"&gt;
+                        &lt;strong&gt;Success!&lt;/strong&gt; This is a Success Alert - Check it now!
+                    &lt;/div&gt;
+
+                    &lt;div class="alert warning"&gt;
+                        &lt;strong&gt;Warning!&lt;/strong&gt; This is a Warning Alert - Check it now!
+                    &lt;/div&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- OUTLINE ALERT -->
+                <div class="content-head">
+                    Outline Alert
+                </div>
+
+                <div class="content-subtitle">
+                    Outline alerts are created by using <code>alert</code> class, followed by <code>outline-variant</code>.
+                </div>
+
+                <div class="example-div alert-box">
+                    <div class="alert outline-primary">
+                        <strong>Primary!</strong> This is a Primary Alert - Check it now!
+                    </div>
+
+                    <div class="alert outline-error">
+                        <strong>Error!</strong> This is an Error Alert - Check it now!
+                    </div>
+
+                    <div class="alert outline-success">
+                        <strong>Success!</strong> This is a Success Alert - Check it now!
+                    </div>
+
+                    <div class="alert outline-warning">
+                        <strong>Warning!</strong> This is a Warning Alert - Check it now!
+                    </div>
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the alert class, followed by the outline-(variant) -->
+
+                    &lt;div class="alert outline-primary"&gt;
+                        &lt;strong&gt;Primary!&lt;/strong&gt; This is a Primary Alert - Check it now!
+                    &lt;/div&gt;
+
+                    &lt;div class="alert outline-error"&gt;
+                        &lt;strong&gt;Error!&lt;/strong&gt; This is an Error Alert - Check it now!
+                    &lt;/div&gt;
+
+                    &lt;div class="alert outline-success"&gt;
+                        &lt;strong&gt;Success!&lt;/strong&gt; This is a Success Alert - Check it now!
+                    &lt;/div&gt;
+
+                    &lt;div class="alert outline-warning"&gt;
+                        &lt;strong&gt;Warning!&lt;/strong&gt; This is a Warning Alert - Check it now!
+                    &lt;/div&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+
+                <footer>
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="../Avatar/avatar.html">Avatar</a>
+                    </div>
+                    <div class="next-comp">
+                        <a href="../Badge/badge.html">Badge</a> 
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
+    <title>Sparrow : Button</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="../../index.html">Sparrow</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right-nav">
+                <li><a href="/Get Started/introduction.html">Docs</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Releases</a></li>
+            </ul>
+        </nav>
+
+        <div class="doc-container">
+            <div class="side-bar">
+
+                <!-- Get Started List Start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Get Started/introduction.html">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Get Started/introduction.html">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Color.html">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Typography.html">
+                                Typography
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Get Started/Conclusion.html">
+                                Conclusion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Components List start -->
+                <div>
+                    <div class="list-topic">
+                        <a href="/Components/Avatar/avatar.html">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/Components/Avatar/avatar.html">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Alert/alert.html">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Badge/badge.html">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Card/card.html">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Image Comp/image.html">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Input/input.html">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/list/list.html">
+                                List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/Toast/toast.html">
+                                Toast
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="doc-content">
+                <div class="content-title">
+                    Button
+                </div>
+                <div class="content-subtitle">
+                    Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make choices, with a single tap.
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Contained BUTTON -->
+                <div class="content-head">
+                    Contained Button
+                </div>
+
+                <div class="content-subtitle">
+                    Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+                </div>
+
+                <div class="example-div">
+                    <button class="btn">DEFAULT</button>
+
+                    <button class="btn btn-primary">PRIMARY</button>
+
+                    <button class="btn btn-secondary">SECONDARY</button>
+
+                    <button class="btn btn-error">ERROR</button>
+
+                    <button class="btn btn-success">SUCCESS</button>
+
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the 'btn' class followed by 'btn-variant' -->
+                    
+                    &lt;button class="btn"&gt;DEFAULT&lt;/button&gt;
+
+                    &lt;button class="btn btn-primary"&gt;PRIMARY&lt;/button&gt;
+
+                    &lt;button class="btn btn-secondary"&gt;SECONDARY&lt;/button&gt;
+
+                    &lt;button class="btn btn-error"&gt;ERROR&lt;/button&gt;
+
+                    &lt;button class="btn btn-success"&gt;SUCCESS&lt;/button&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- OUTLINE BUTTON -->
+                <div class="content-head">
+                    Outline Button
+                </div>
+
+                <div class="content-subtitle">
+                    In need of a button, but not the hefty background colors they bring? Replace '.btn-variant' with '.outline-variant'.
+                </div>
+
+                <div class="example-div">
+                    <button class="btn outline">DEFAULT</button>
+
+                    <button class="btn outline-primary">PRIMARY</button>
+
+                    <button class="btn outline-error">ERROR</button>
+
+                    <button class="btn outline-success">SUCCESS</button> 
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the 'btn' class followed by 'outline-variant' -->
+
+                    &lt;button class="btn outline"&gt;DEFAULT&lt;/button&gt;
+
+                    &lt;button class="btn outline-primary"&gt;PRIMARY&lt;/button&gt;
+
+                    &lt;button class="btn outline-error"&gt;ERROR&lt;/button&gt;
+
+                    &lt;button class="btn outline-success"&gt;SUCCESS&lt;/button&gt;
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+
+
+                <!-- LINK BUTTON -->
+                <div class="content-head">
+                    Link Button
+                </div>
+
+                <div class="content-subtitle">
+                    Want to attach a link action, at a button tap? Use Link Button
+                </div>
+
+                <div class="example-div">
+                    <button class="btn btn-link">
+                        <a href="#">LINK</a>
+                    </button>
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the 'btn' class followed by 'btn-link' -->
+
+                    &lt;button class="btn btn-link"&gt;
+                        &lt;a href = "link"&gt;DEFAULT&lt;/a&gt;
+                    &lt;/button&gt;
+
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+
+                <!-- ICON BUTTON -->
+                <div class="content-head">
+                    Icon Button
+                </div>
+
+                <div class="content-subtitle">
+                    Icon Buttons can be created, by using a SVG as a child to parent button. Use the 'btn' class followed by 'btn-icon'. 
+                </div>
+
+                <div class="example-div">
+                    <button class="btn btn-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--mdi" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3a3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-4-4z" fill="currentColor"></path></svg>
+                        SAVE
+                    </button>
+                </div>
+
+                <div class="example-code">
+                    <pre>
+                        <code class="html">
+                    <-- Using the 'btn' class followed by 'btn-icon' -->
+
+                    &lt;button class="btn btn-icon"&gt;
+                        &lt;svg&gt;&lt;/svg&gt;
+                        SAVE
+                    &lt;/button&gt;
+
+                        </code></pre>
+                </div>
+
+                <div class="divider"></div>
+
+                <footer>
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="../Badge/badge.html">Badge</a>
+                    </div>
+                    <div class="next-comp">
+                        <a href="../Card/card.html">Card</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
